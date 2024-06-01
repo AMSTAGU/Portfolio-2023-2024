@@ -1,0 +1,84 @@
+body {
+    font-family: monospace;
+    background-color: #2404aa;
+    background-image: url(/img/noise.png);
+}
+
+header{
+    margin-top: 25px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul .left {
+    margin-right: auto;
+}
+
+nav ul .right {
+    display: flex;
+    gap: 60px;
+
+}
+
+.atm{
+    border-bottom: solid 1px white ;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.mec{
+    margin-right: 40px;
+}
+
+/* Code */
+
+
+section {
+    text-align: center;
+    margin-top: 17%;
+}
+
+.email-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.monmail {
+    font-size: 2em;
+    color: white;
+}
+
+.reseaux {
+    margin-top: 20px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+i {
+    cursor: pointer;
+    font-size: 2em;
+    color: white;
+}
+
+.test i {
+    font-size: 2em;
+}
+
+.email-content i {
+    font-size: 1.7em;
+}

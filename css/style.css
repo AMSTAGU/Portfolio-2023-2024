@@ -1,0 +1,59 @@
+body {
+    font-family: monospace;
+    background-color: #2404aa;
+    background-image: url(/img/noise.png);
+}
+
+header{
+    margin-top: 25px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul .left {
+    margin-right: auto;
+}
+
+nav ul .right {
+    display: flex;
+    gap: 60px;
+
+}
+
+.atm{
+    border-bottom: solid 1px white ;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.mec{
+    padding-right: 40px;
+}
+
+
+/* code */
+
+main {
+    text-align: center;
+    margin-top: 20%;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+p {
+    font-size: 1.7em;
+    color: white;
+}
