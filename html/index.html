@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amaury GAU - Portfolio</title>
     <link rel="icon" href="../img/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
-    
+
 
 </head>
+
 <body>
 
-  <!-- Navbar -->
+    <!-- Navbar -->
 
     <header>
         <nav>
@@ -21,17 +23,17 @@
                     <li><a href="Aboutme.html">About me</a></li>
                     <li><a href="MesProjets.html">Mes projets</a></li>
                     <li><a class="mec" href="MeContacter.html">Me contacter</a></li>
-                 </div>
+                </div>
             </ul>
         </nav>
     </header>
 
-  <!-- Texte -->
+    <!-- Texte -->
 
     <main id="main-content">
         <section>
             <h1 id="typewriter">Hello! je suis Amaury GAU,</h1>
-            <p>Etudiant en 1ere année de BUT informatique</p>
+            <p>Etudiant en 2eme année de BUT informatique</p>
         </section>
     </main>
 
@@ -41,7 +43,7 @@
         var caption = 'Hello! je suis Amaury GAU,';
         var captionEl;
 
-        $(document).ready(function() {
+        $(document).ready(function () {
             captionEl = $('#typewriter');
             setInterval(cursorAnimation, 600);
             type();
@@ -49,7 +51,7 @@
 
         function type() {
             captionEl.html(caption.substr(0, captionLength++) + '<span id="cursor">|</span>');
-            if(captionLength < caption.length + 1) {
+            if (captionLength < caption.length + 1) {
                 setTimeout(type, 50);
             } else {
                 captionLength = 0;
@@ -66,4 +68,5 @@
         }
     </script>
 </body>
+
 </html>
